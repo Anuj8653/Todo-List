@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-box {
+  background: #fff;
+  width: 100%;
+  max-width: 4500px;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 50px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 10px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 11px 14px;
+  border: 1.5px solid #a9a9aa;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #111;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.task-input::placeholder {
+  color: #c4c4c4;
+}
+
+.add-btn {
+  background: black;
+  color: white;
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  background: #fafafa;
+  border: 1.5px solid #a9a9aa;
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition: border-color 0.2s;
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.todo-text {
+  font-size: 14px;
+  color: #2d2d2d;
+  flex: 1;
+  word-break: break-word;
+}
+
+.action-btns {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.edit-btn {
+  background: green;
+  color: white;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+}
+
+.edit-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #111;
+  outline: none;
+}
+
+.save-btn {
+  background: black;
+  color: #fff;
+}
+
+.cancel-btn {
+  background: #f3f4f6;
+  color: #6b7280;
+}
